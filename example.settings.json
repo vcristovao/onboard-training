@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "DB_HOST": "localhost",
+    "DB_PORT": "1433",
+    "DB_USERNAME": "sa",
+    "DB_PASSWORD": "12345677",
+    "DB_NAME": "database_name_here"
+  }
+}

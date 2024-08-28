@@ -1,5 +1,6 @@
 /node_modules
-/local.settings.json
+/*.settings.json
+!example.settings.json
 *.js
 *.js.map
 *.tsbuildinfo

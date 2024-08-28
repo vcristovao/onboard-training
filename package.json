@@ -2,7 +2,7 @@
   "name": "oms-node-api-v2",
   "version": "1.10.4",
   "scripts": {
-    "build": "tsc -b client",
+    "build": "tsc -b functions/client",
     "build:production": "npm run prestart && npm prune --production",
     "watch": "npm run build -- -w --preserveWatchOutput",
     "prestart": "npm run build && func extensions install",

@@ -1,5 +1,5 @@
-import withDatabaseConnection from "../core/functions/withDatabaseConnection";
-import { AzureFunctionHttpRequest } from "../core";
+import withDatabaseConnection from "../../core/functions/withDatabaseConnection";
+import { AzureFunctionHttpRequest } from "../../core";
 
 export const createClient = withDatabaseConnection<AzureFunctionHttpRequest>(
   async function (context, req): Promise<void> {

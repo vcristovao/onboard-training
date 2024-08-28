@@ -1,5 +1,5 @@
 import { createClient } from "./create-client";
-import { AzureFunctionHttpRequest } from "../core";
+import { AzureFunctionHttpRequest } from "../../core";
 import { readClients } from "./read-clients";
 
 const httpTrigger: AzureFunctionHttpRequest = async function (

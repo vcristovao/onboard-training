@@ -1,5 +1,26 @@
 # onboard-training
 
+## 2024-09-02
+
+- Refactor project structure
+- Create response and error factories
+- Use one function per request for the client entities
+- Use a single `tsconfig.json` file at the root of the project
+
+### CRUD for client entity implemented
+
+- **C**reate client entity
+- **R**ead client entities
+- **U**pdate client entity
+- **D**elete client entity
+
+#### Examples
+
+![Postman showing CRUD of client entity](assets/client_crud.gif)
+
+## Abandoned: Initial idea
+
+```plaintext
 ### `core`
 
 The idea is that `core` project holds helper functions that are going to be used by the Azure Functions implemented in the project.
@@ -61,3 +82,4 @@ The files are compiled directly to the same folder as the `.ts` source files. Th
 When using [TypeScript Project References](#typescript-project-references), the target package (e.g. `functions/client`, `entities`, `core`, etc.) must be compiled with the `-b <path to package>` command-line argument.
 
 All the dependencies of the package given to this argument will be automatically resolved by the TypeScript compiler, as long as they are present in the `references` array.
+```

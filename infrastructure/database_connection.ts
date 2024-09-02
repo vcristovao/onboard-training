@@ -1,5 +1,5 @@
 import { Connection, createConnection } from "typeorm";
-import entities from "../entities";
+import entities from "../core/entities/db_entities";
 import assert from "assert";
 
 function assertEnvironmentVariable(

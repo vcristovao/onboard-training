@@ -1,5 +1,5 @@
 import { AzureFunction } from "@azure/functions";
-import DatabaseConnection from "../../database/DatabaseConnection";
+import DatabaseConnection from "../../infrastructure/database_connection";
 
 export default function withDatabaseConnection<
   T extends AzureFunction = AzureFunction,

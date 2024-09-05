@@ -1,6 +1,6 @@
 import withDatabaseConnection from "../core/functions/withDatabaseConnection";
-import * as ClientService from "../services/client.service";
+import * as ItemService from "../services/item.service";
 
 export default withDatabaseConnection(async function (context, req) {
-  await ClientService.deleteClient(context, req);
+  await ItemService.createItem(context, req);
 });

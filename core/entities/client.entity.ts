@@ -1,7 +1,7 @@
 import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity("clients")
-export default class Clients extends BaseEntity {
+export default class Client extends BaseEntity {
   @PrimaryGeneratedColumn()
   id!: string;
 

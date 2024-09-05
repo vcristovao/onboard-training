@@ -1,5 +1,11 @@
 # onboard-training
 
+## 2024-09-05
+
+### Implement `Item` entity CRUD
+
+![alt text](<assets/Screenshot from 2024-09-05 00-21-12.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-21-03.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-18-57.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-18-55.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-17-36.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-17-18.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-17-16.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-16-55.png>) ![alt text](<assets/Screenshot from 2024-09-05 00-15-57.png>)
+
 ## 2024-09-02
 
 - Refactor project structure
